@@ -65,7 +65,9 @@ export const skillData = [
   },
   {
     id: 3,
-    skill: <Icon icon='skill-icons:nodejs-dark' className='icon-color display-4' />,
+    skill: (
+      <Icon icon='skill-icons:nodejs-dark' className='icon-color display-4' />
+    ),
     name: 'Nodejs'
   },
   {
@@ -95,7 +97,12 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <Icon icon='akar-icons:typescript-fill' className='icon-color display-4' />,
+    skill: (
+      <Icon
+        icon='akar-icons:typescript-fill'
+        className='icon-color display-4'
+      />
+    ),
     name: 'Typescript'
   },
   {
@@ -115,7 +122,9 @@ export const skillData = [
   },
   {
     id: 13,
-    skill: <Icon icon='akar-icons:redux-fill' className='icon-color display-4' />,
+    skill: (
+      <Icon icon='akar-icons:redux-fill' className='icon-color display-4' />
+    ),
     name: 'Redux'
   },
   {
@@ -125,7 +134,9 @@ export const skillData = [
   },
   {
     id: 15,
-    skill: <Icon icon='fa6-brands:square-github' className='icon-color display-4' />,
+    skill: (
+      <Icon icon='fa6-brands:square-github' className='icon-color display-4' />
+    ),
     name: 'GitHub'
   },
   {
@@ -141,14 +152,17 @@ export const skillData = [
 ]
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume =
-  'https://drive.google.com/file/d/1uUkcuuB1qPPbwWImYmjUXlT49DRBXBWj/view?usp=sharing'
+export const resume = 'https://dapt4.github.io/react-cv-resume-2025/'
 
 /* Projects
  **************************************************************
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ['react-hero-app', 'vue_sorting_hat', 'podcastapp']
+export const filteredProjects = [
+  'react-hero-app',
+  'vue_sorting_hat',
+  'podcastapp'
+]
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [

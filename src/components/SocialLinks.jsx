@@ -44,9 +44,9 @@ const SocialLinks = () => {
           } else if (element.provider === 'tiktok') {
             icon = <Icon icon='fa-brands:tiktok' />
           } else if (element.provider === 'generic') {
-            if (element.url.includes('https://drive.google.com/file')) {
+            if (element.url.includes('https://dapt4.github.io/react-cv-resume-2025/')) {
               icon = <Icon icon='pepicons-pencil:cv-circle-filled' />
-            } else if (element.url.includes('https://dapt4.github.io/')) {
+            } else if (element.url.includes('https://dapt4.github.io/react-portfolio24/')) {
               icon = <Icon icon='icon-park-solid:download-web' />
             }
           } else {
