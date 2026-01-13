@@ -6,7 +6,7 @@ import react from '../images/logo.png'
 import python from '../images/python.png'
 import angular from '../images/Angular.png'
 import ionic from '../images/Ionic.png'
-import django from '../images/django.png'
+import flask from '../images/flask.png'
 import typescript from '../images/typescript.png'
 import nodejs from '../images/node.js.png'
 import { Light, Dark } from '../config'
@@ -131,7 +131,7 @@ const propTypes = {
 
 const images = [
   { url: python, caption: 'Python' },
-  { url: django, caption: 'Django' },
+  { url: flask, caption: 'Flask' },
   { url: ionic, caption: 'Ionic' },
   { url: angular, caption: 'Angular' },
   { url: typescript, caption: 'Typescript' },
