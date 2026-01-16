@@ -153,9 +153,7 @@ const Hero = ({ name }) => {
               <ReactTyped
                 strings={[
                   'Fullstack Developer',
-                  'Backend',
-                  'Mobile',
-                  'Frontend'
+                  'Software Engineer',
                 ]}
                 typeSpeed={100}
                 loop

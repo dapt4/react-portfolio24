@@ -60,8 +60,8 @@ export const skillData = [
   },
   {
     id: 2,
-    skill: <Icon icon='skill-icons:django' className='icon-color display-4' />,
-    name: 'Django'
+    skill: <Icon icon='skill-icons:flask-light' className='icon-color display-4' />,
+    name: 'Flask'
   },
   {
     id: 3,
@@ -140,12 +140,62 @@ export const skillData = [
     name: 'GitHub'
   },
   {
-    id: 16,
+    id: 17,
     skill: <Icon icon='mdi:eslint' className='icon-color display-4' />,
     name: 'Eslint'
   },
   {
-    id: 17,
+    id: 18,
+    skill: <Icon icon='skill-icons:postgresql-light' className='icon-color display-4' />,
+    name: 'Postgrsql'
+  },
+  {
+    id: 19,
+    skill: <Icon icon='skill-icons:mysql-light' className='icon-color display-4' />,
+    name: 'Mysql'
+  },
+  {
+    id: 20,
+    skill: <Icon icon='skill-icons:mongodb' className='icon-color display-4' />,
+    name: 'Mongodb'
+  },
+  {
+    id: 21,
+    skill: <Icon icon='skill-icons:redis-light' className='icon-color display-4' />,
+    name: 'Redis'
+  },
+  {
+    id: 22,
+    skill: <Icon icon='skill-icons:vite-light' className='icon-color display-4' />,
+    name: 'Vite'
+  },
+  {
+    id: 23,
+    skill: <Icon icon='skill-icons:vitest-light' className='icon-color display-4' />,
+    name: 'Vitest'
+  },
+  {
+    id: 24,
+    skill: <Icon icon='skill-icons:gitlab-light' className='icon-color display-4' />,
+    name: 'Gitlab'
+  },
+  {
+    id: 25,
+    skill: <Icon icon='skill-icons:docker' className='icon-color display-4' />,
+    name: 'Docker'
+  },
+  {
+    id: 26,
+    skill: <Icon icon='skill-icons:ubuntu-light' className='icon-color display-4' />,
+    name: 'Ubuntu'
+  },
+  {
+    id: 27,
+    skill: <Icon icon='skill-icons:linux-light' className='icon-color display-4' />,
+    name: 'Linux/Bash'
+  },
+  {
+    id: 28,
     skill: <Icon icon='lucide:ellipsis' className='icon-color display-4' />,
     name: 'And more...'
   }
